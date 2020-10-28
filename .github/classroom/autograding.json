@@ -36,7 +36,7 @@
       "run": "./a.out",
       "input": "3 1 2 3",
       "output": "Array elements in reverse order : 3 2 1",
-      "comparison": "included",
+      "comparison": "exact",
       "timeout": 10,
       "points": 10
     }
