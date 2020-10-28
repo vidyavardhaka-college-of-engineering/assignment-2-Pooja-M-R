@@ -9,13 +9,13 @@
 
 #include <stdio.h>
 int main() {
-	int i = 1, n;
+	int i = 1,n;
 	printf("Enter an integer");
 	scanf("%d",&n);
  // Fill the code in scanf()
 	do {
-		printf("I Love VVCE");
-		i++:
+		printf("I Love VVCE ");
+		i++;
 		// complete the statement
 	} while(i<=n);
 	return(0);// complete the condition
