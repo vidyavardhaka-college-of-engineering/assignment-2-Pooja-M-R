@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "SUM",
+      "setup": "cc Program-5.c",
+      "run": "./a.out",
+      "input": "4 1 2 3 4",
+      "output": "Sum of elements=10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
