@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "STRING",
+      "setup": "cc Program-3.c",
+      "run": "./a.out",
+      "input": "3",
+      "output": "I Love VVCE I Love VVCE I Love VVCE",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
