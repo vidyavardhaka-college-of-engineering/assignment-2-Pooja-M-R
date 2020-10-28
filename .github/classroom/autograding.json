@@ -39,6 +39,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "freq",
+      "setup": "cc Program-8.c",
+      "run": "./a.out",
+      "input": "3 10 20 20 20",
+      "output": "The number of times the  key element  is repeated  is 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
