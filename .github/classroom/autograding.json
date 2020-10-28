@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "evenoddcount",
+      "setup": "cc Program-6.c",
+      "run": "./a.out",
+      "input": "3 1 2 3",
+      "output": "Total number of even numbers and odd numbers in the array are 1 and 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
