@@ -35,7 +35,7 @@
       "setup": "cc Program-7.c",
       "run": "./a.out",
       "input": "3 1 2 3",
-      "output": "3 2 1",
+      "output": "Array elements in reverse order : 3 2 1",
       "comparison": "included",
       "timeout": 10,
       "points": 10
