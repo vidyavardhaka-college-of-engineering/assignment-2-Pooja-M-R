@@ -79,6 +79,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "natural numbers",
+      "setup": "cc Program-2.c",
+      "run": "./a.out",
+      "input": "3",
+      "output": "1 2 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
