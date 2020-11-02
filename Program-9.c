@@ -42,7 +42,7 @@ int main()
         
         //printf(" ");//missing code
     }   
-    printf("Transpose of the given matrix is\n");
+    printf("Transpose of given matrix is\n");
     
     for(i=0;i<n;++i)//missing code
     {
