@@ -59,6 +59,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "LARGESMALL",
+      "setup": "cc Program-10.c",
+      "run": "./a.out",
+      "input": "4 30 20 10 60",
+      "output": "The largest element of the array = 60\r\nThe smallest element of the array = 10\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
