@@ -48,7 +48,7 @@ int main()
     {
         for(j=0;j<m;++j)//missing code
         {
-            printf("%d ",a[j][i]);//missing code
+            printf(" %d",a[j][i]);//missing code
         }
         
         //printf("\n");
