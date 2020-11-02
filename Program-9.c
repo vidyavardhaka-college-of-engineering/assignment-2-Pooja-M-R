@@ -42,16 +42,16 @@ int main()
         
         //printf(" ");//missing code*/
     }   
-    printf("Transpose of the given matrix is");
+    printf("Transpose of the given matrix is\n");
     
     for(i=0;i<n;++i)//missing code
     {
         for(j=0;j<m;++j)//missing code
         {
-            printf(" %d",a[j][i]);//missing code
+            printf("%d ",a[j][i]);//missing code
         }
         
-        //printf("\n");
+        printf("\n");
     }
  return(0);
           }
