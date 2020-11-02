@@ -32,7 +32,7 @@ int main()
         for(j=0;j<n;j++)
             scanf("%d",&a[i][j]);//missing code
     
-   printf("The given matrix is\n");
+   printf("The given matrix is");
     
           for(i=0;i<m;i++){
     
@@ -42,7 +42,7 @@ int main()
         
         //printf(" ");//missing code
     }   
-    printf("Transpose of given matrix is\n");
+    printf("Transpose of the given matrix is");
     
     for(i=0;i<n;++i)//missing code
     {
