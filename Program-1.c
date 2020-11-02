@@ -15,33 +15,32 @@
 
 
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-  int i,n,Sum=0,numbers,a[20];
-  float Average;
-// Fill the code in printf()
-// Fill the code in scanf()
+   int num;
+    int count = 0;
 
-printf("Enter the number of elements and the elements");
-  scanf("%d",&numbers);
-  for(i=0;i<n;++i)
-   {
-     scanf("%d",&a[i]);
-     //write the code to calculate sum
-   }
-//write the code to calculate Average 
-   for(i=0;i<n;++i)
-   {
-     Sum=Sum+a[i];
-     //write the code to calculate sum
-   }
-  printf("Sum = %d",Sum);
-  printf("Average = %f",Average);
+    /* Input number from user */
+    printf("Enter any number: ");
+    scanf("%d", &num);
 
-  return 0;
+    /* Run loop till num is greater than 0 */
+    do
+    {
+        /* Increment digit count */
+        count++;
+
+        /* Remove last digit of 'num' */
+        num /= 10;
+    } while(num != 0);
+
+    printf("Total digits: %d", count);
+
+    return 0;
 }
 
+  
 
 
