@@ -55,7 +55,7 @@
       "setup": "cc Program-9.c",
       "run": "./a.out",
       "input": "2 2 1 2 3 4",
-      "output": "Transpose of the given matrix is 1 3 2 4",
+      "output": "1 3\r\n2 4",
       "comparison": "included",
       "timeout": 10,
       "points": 10
