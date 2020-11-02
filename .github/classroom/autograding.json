@@ -89,6 +89,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Numberofdigits",
+      "setup": "cc Program-1.c",
+      "run": "./a.out",
+      "input": "452",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
