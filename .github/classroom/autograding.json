@@ -114,7 +114,7 @@
       "name": "sumofodd",
       "setup": "cc Program-4.c",
       "run": "./a.out",
-      "input": "",
+      "input": "1",
       "output": "25",
       "comparison": "included",
       "timeout": 10,
