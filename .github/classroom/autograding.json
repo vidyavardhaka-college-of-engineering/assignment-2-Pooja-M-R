@@ -105,7 +105,7 @@
       "setup": "cc Program-9.c",
       "run": "./a.out",
       "input": "4 1 2 3 4 3",
-      "output": "3 is present at location 3",
+      "output": "3 ",
       "comparison": "included",
       "timeout": 10,
       "points": 10
