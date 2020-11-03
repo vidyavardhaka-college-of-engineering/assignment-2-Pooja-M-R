@@ -20,38 +20,31 @@ Transpose of the given matrix is
 
 //INSERT THE MISSING CODE 
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a[5][5],i,j,m,n;
-    printf("Enter the order of matrix  and the elements");
-    scanf("%d%d",&m,&n);
-    
-    //printf("Enter the elements : ");
-    for(i=0;i<m;i++)
-        for(j=0;j<n;j++)
-            scanf("%d",&a[i][j]);//missing code
-    
-   /*printf("The given matrix is");
-    
-          for(i=0;i<m;i++){
-    
-        for(j=0;j<n;j++)
-        {
-            printf("%d ",a[i][j]);}//missing code
-        
-        //printf(" ");//missing code*/
-    }   
-    printf("Transpose of the given matrix is\n");
-    
-    for(i=0;i<n;++i)//missing code
+  int array[100], search, c, n;
+
+  printf("Enter number of elements in the array, array elements and the key");
+  scanf("%d", &n);
+
+  
+  for (c = 0; c < n; c++)
+    scanf("%d", &array[c]);
+
+ 
+  scanf("%d", &search);
+
+  for (c = 0; c < n; c++)
+  {
+    if (array[c] == search)    /* If required element is found */
     {
-        for(j=0;j<m;++j)//missing code
-        {
-            printf("%d ",a[j][i]);//missing code
-        }
-        
-        printf("\n");
+      printf("%d is present at location %d", search, c+1);
+      break;
     }
- return(0);
-          }
+  }
+  if (c == n)
+    printf("%d is not present in the array", search);
+
+  return 0;
+}
