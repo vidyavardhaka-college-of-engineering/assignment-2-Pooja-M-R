@@ -3,15 +3,16 @@
 #include <stdio.h>
 int main ()
 {
- int a,sum = 0;
+ int i,sum = 0;
 //Fill the missing code
+ for(i=1;i<=10;i++)
  {
    
-   if ( a % 2 == 0 )
+   if ( i % 2 == 0 )
       continue;
-  sum = sum + a;
+  sum = sum + i;
   }
-/Fill the missing code
+  printf("Sum=%d",sum);
+//Fill the missing code
  return 0;
 }
-
