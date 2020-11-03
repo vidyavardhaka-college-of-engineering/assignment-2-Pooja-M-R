@@ -3,9 +3,10 @@
 #include <stdio.h>
 int main ()
 {
- int i,sum = 0;
+ int i,j,sum = 0;
+ scanf("%d",&j);
 //Fill the missing code
- for(i=1;i<=10;i++)
+ for(i=j;i<=10;i++)
  {
    
    if ( i % 2 == 0 )
