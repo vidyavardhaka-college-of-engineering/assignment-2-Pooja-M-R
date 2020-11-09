@@ -19,7 +19,7 @@ Array elements in reverse order : 30 20 10*/
 	  scanf("%d",&n);
 	  
 	  for(i=0;i<n;i++)
-	  scanf("%d",&a[]);//missing code
+	  scanf("%d",&a[i]);//missing code
 	  printf("Array elements in the reverse order : ");
 	  for(i=n-1;i>=1;i--) //missing code
 	  printf("%d ",a[i]);
