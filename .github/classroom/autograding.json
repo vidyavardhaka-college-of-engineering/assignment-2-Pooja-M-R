@@ -51,16 +51,6 @@
       "points": 10
     },
     {
-      "name": "TRANSPOSE",
-      "setup": "cc Program-9.c",
-      "run": "./a.out",
-      "input": "2 2 1 2 3 4",
-      "output": "1 3\r\n2 4",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-    {
       "name": "LARGESMALL",
       "setup": "cc Program-10.c",
       "run": "./a.out",
