@@ -19,7 +19,7 @@ Number of times element 10 is repeated : 2*/
 #include<stdio.h>
 int main(){
   int n,flag=0,i,key,a[10],c=0;
-  printf("Enter size of the array,  array elemnts and the key");
+  printf("Enter the size of the array,  array elemnts and the key");
   scanf("%d",&n);
   //printf("Enter array elements");
   for(i=0;i<n;i++)//missing code
